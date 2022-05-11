@@ -1,0 +1,707 @@
+.nav-items * {
+  color: rgb(255, 255, 255);
+
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  padding-top: 30px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-items * {
+  text-decoration: none;
+}
+
+ul *:not(:first-child) {
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 1%;
+}
+
+ul li:first-child {
+  margin-left: 101px;
+  padding-right: 40%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Section 1 */
+.section1-nav-container {
+  padding: 0%;
+  margin: 0%;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("icons/teahub.io-pink-gradient-wallpaper-2761573.jpg");
+  background-size: 100% 100%;
+}
+
+.main-heading {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading>h1 {
+  line-height: 1;
+  font-size: 120px !important;
+  font-weight: 900 !important;
+  border: 15px solid white;
+  padding: 33px;
+  color: white;
+
+}
+.show{
+  width: 30px;
+  height: auto;
+}
+.show:last-child{
+margin-right: 20px ;
+}
+@media (max-width:623px)
+{
+  ul li:first-child{
+    margin-left: 10px;
+  }
+  .parts{
+  display: none;
+  }
+}
+/* Section 2 */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+  text-align: center;
+  margin-bottom: 5%;
+  width: 100%;
+  height: 70%;
+
+}
+
+.cards-container p {
+  width: 25%;
+}
+
+@media (max-width: 746px) {
+  .cards-container p {
+    width: 100%;
+  }
+}
+
+.cards-container h1 {
+  padding-bottom: 1%;
+}
+
+.card-grid {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 285px 285px 285px;
+  grid-auto-rows: 300px;
+  grid-gap: 45px;
+}
+
+.padding-col {
+  margin-top: 30px;
+}
+
+.col {
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 295px;
+  height: 250px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.image-logo {
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px 5px 0 0;
+}
+
+.cards-container>p {
+  margin-bottom: 50px;
+}
+
+.card-item-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-item-container h3 {
+  padding-bottom: 5px;
+}
+
+.card-item-container p {
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  align-items: center;
+}
+
+
+@media (max-width: 1133px) {
+  .card-grid {
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 300px 300px 300px
+  }
+
+  .padding-col {
+    margin-top: 0;
+  }
+
+  .cards-container {
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col {
+    width: inherit;
+  }
+
+}
+
+@media screen and (max-width: 746px) {
+  .card-grid {
+    grid-template-columns: 95%;
+  }
+
+  .padding-col {
+    margin-top: 0;
+  }
+
+  .cards-container {
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col {
+    width: inherit;
+  }
+}
+
+
+/* Section 3 */
+
+.section3-container {
+  margin-bottom: 200px;
+  background-image: url("icons/teahub.io-pink-gradient-wallpaper-2761573.jpg");
+  background-size: 100% 100%;
+}
+
+.info-col {
+  box-sizing: border-box;
+  width: 400px;
+  padding: 20px;
+  text-align: justify;
+}
+.info-col h1{
+
+}
+@media (max-width:446px) {
+  .info-col {
+    width: 100%;
+  }
+
+}
+
+.profileimage {
+  max-width: 100%;
+  height: 100%;
+  margin-left: -10%;
+}
+
+.section3-row {
+  display: flex;
+  align-content: center;
+  height: 856px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media (max-width: 746px) {
+  .section3-row {
+    flex-direction: column;
+  }
+}
+
+.section3-container>.section3-row>.info-col>h4 {
+  font-weight: 900;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: bolder;
+}
+
+.section3-container>.section3-row> .info-col p {
+  color: white;
+}
+
+.feature-button {
+  margin-top: 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 40px;
+}
+
+.section3-container {
+  height: 856px;
+}
+
+/*Section 4 */
+
+.section4-row {
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: center;
+  height: 856px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section4-container>.section4-row>* h4 {
+  
+  color: black;
+}
+
+.section4-container>.section4-row>* p {
+  text-align: justify;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.progressbar {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 11px;
+  color: white;
+  background-color: #FF05CC;
+  width: 95%;
+  border-radius: 5px;
+}
+
+.progress-container {
+  background-color: #EAEBEE;
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media (max-width: 746px) {
+  .section4-row {
+    flex-direction: column-reverse;
+  }
+}
+
+
+/* Section 5 SLider */
+
+.section5-container {
+  position: relative;
+  width: 100%;
+  height: 656px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(icons/bg-white.jpg);
+}
+
+.section5-container p {
+  text-align: center;
+  font: 30px;
+  padding-bottom: 30px;
+}
+
+.dot-large {
+  margin-top: 60px;
+  color: #FF05CC;
+  font-size: 110px;
+}
+
+.slider-container {
+  width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slides {
+  width: 100px;
+  height: fit-content;
+  display: flex;
+  overflow: hidden;
+}
+
+.slides img {
+  width: 100px;
+  border-radius: 200px;
+}
+
+.slide {
+  width: 100%;
+  transition: 1s;
+}
+
+.slides input {
+  display: none;
+}
+
+.navigation-manual {
+  position: relative;
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.manual-btn {
+  border: 7px solid #FF05CC;
+  color: aqua;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 30px;
+}
+
+.manual-btn:hover {
+  border: 2px solid #FF05CC;
+  padding: 5px;
+}
+
+#radio1:checked~.first {
+  margin-left: 0%;
+}
+
+#radio2:checked~.first {
+  margin-left: -100%;
+}
+
+#radio3:checked~.first {
+  margin-left: -200%;
+}
+
+
+/* Section 6 */
+
+.section6-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+
+}
+
+.section6-container h1 {
+  font-weight: 300;
+  padding-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  /* padding-inline: 10px; */
+}
+
+.section6-container p {
+
+  font-weight: 200;
+  width: 1fr;
+  margin: 0%;
+  margin-bottom: 20px;
+  padding-top: 10px;
+
+}
+
+.grid-links * {
+  color: #FF05CC;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.grid-links {
+  padding-bottom: 20px;
+}
+
+.grid-layout {
+  width: 42%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 10px;
+}
+
+.item4,
+.item6 {
+  margin-top: 0px;
+}
+
+.item5 {
+  margin-top: -110px;
+}
+
+.grid-layout * {
+  border-radius: 5px;
+}
+
+.grid-layout img {
+  height: inherit;
+  width: 100%;
+}
+
+@media (max-width: 1133px) {
+  .grid-layout {
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 315px;
+  }
+
+  .grid-layout * {
+    border-radius: 5px;
+    /* margin-left: 14px;
+    margin-right: 43px; */
+  }
+
+  .item4 {
+    margin-bottom: 110px;
+  }
+}
+@media (max-width:400px)
+{
+  .grid-layout {
+  grid-template-columns: 280px;
+  }
+}
+
+/* Section 7 */
+.section7-container {
+  
+  background-image: url(icons/teahub.io-pink-gradient-wallpaper-2761573.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  padding-block: 60px;
+  color: white;
+
+}
+.responsive-h1{
+  display: none;
+}
+.tag{
+  font-family: 'Reklame Script Regular DEMO', sans-serif;
+  letter-spacing:10px;
+}
+
+/* Section 8 */
+.section8-container {
+  width: 100%;
+  height: 70%;
+  margin-block: 5%;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex: content;
+}
+
+.cards {
+  margin-top: 15px;
+  text-align: center;
+
+}
+.cards:not(:first-child)
+{
+  margin-left: 15px;
+}
+
+.info-card {
+  display: flex;
+}
+
+.infoimg {
+  width: 70px;
+  height: 50px;
+}
+
+.info-part {
+  padding: 20px;
+  text-align: justify;
+  width: 400px;
+}
+
+.form-part {
+  max-width: 350px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 50px;
+  box-shadow: 5px 5px 10px 2px rgb(211, 211, 211);
+}
+
+.form-part input:not(:last-child),
+.textarea {
+  /* max-width: 400px; */
+  width: 80%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.submit {
+  background-color: #FF05CC;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.textarea {
+  margin-top: 30px;
+  height: 200px;
+}
+
+.section8-container h1 {
+  margin-bottom: 20px;
+}
+
+.section8-container h4 {
+  margin-block: 20px;
+  font-size: 20px;
+}
+
+.puchase-tag {
+text-decoration: none;
+  margin-top: 40px;
+  color: #FF05CC;
+}
+
+@media (max-width: 746px) {
+
+  .section8-container {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .section8-container h1 {
+   text-align: initial;
+   margin-bottom: 20px;
+   width: 100%;
+  }
+  .form-part input:not(:last-child),
+  .textarea {
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+  }
+.info-part{
+  padding: 0;
+  margin-top: 40px;
+ 
+}
+  .form-part {
+    margin: 10px;
+    /* max-width: 350px; */
+  }
+
+  .info-part {
+    width: 80%
+  }
+
+}
+@media (max-width:430px)
+{
+  .non-responsive-h1{
+    display: none;
+    
+  }
+  .responsive-h1{
+    display: contents;
+    font-size:100px;
+    font-weight:900;
+  }
+}
+/* Section 9 */
+
+.section9-container {
+
+  background-image: url(icons/teahub.io-pink-gradient-wallpaper-2761573.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  padding-block: 60px;
+  color: white;
+
+}
+
+/* footer */
+footer {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.social-tags {
+  margin-left: 100px;
+  text-decoration: none;
+
+  color: #FF05CC;
+}
+
+.social-tags a {
+  margin-right: 30px;
+  color: #FF05CC;
+}
+
+.color-substring {
+  color: #FF05CC;
+}
+
+@media (max-width: 746px) {
+  footer {
+    flex-direction: column;
+
+  }
+
+
+  .social-tags {
+   
+    padding-top:10px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+}
