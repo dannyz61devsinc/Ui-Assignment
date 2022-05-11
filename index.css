@@ -66,22 +66,26 @@ ul li:first-child {
   color: white;
 
 }
-.show{
+
+.show {
   width: 30px;
   height: auto;
 }
-.show:last-child{
-margin-right: 20px ;
+
+.show:last-child {
+  margin-right: 20px;
 }
-@media (max-width:623px)
-{
-  ul li:first-child{
+
+@media (max-width:623px) {
+  ul li:first-child {
     margin-left: 10px;
   }
-  .parts{
-  display: none;
+
+  .parts {
+    display: none;
   }
 }
+
 /* Section 2 */
 .cards-container {
   display: flex;
@@ -219,9 +223,9 @@ margin-right: 20px ;
   padding: 20px;
   text-align: justify;
 }
-.info-col h1{
 
-}
+.info-col h1 {}
+
 @media (max-width:446px) {
   .info-col {
     width: 100%;
@@ -258,7 +262,7 @@ margin-right: 20px ;
   font-weight: bolder;
 }
 
-.section3-container>.section3-row> .info-col p {
+.section3-container>.section3-row>.info-col p {
   color: white;
 }
 
@@ -288,7 +292,7 @@ margin-right: 20px ;
 
 
 .section4-container>.section4-row>* h4 {
-  
+
   color: black;
 }
 
@@ -501,16 +505,16 @@ margin-right: 20px ;
     margin-bottom: 110px;
   }
 }
-@media (max-width:400px)
-{
+
+@media (max-width:400px) {
   .grid-layout {
-  grid-template-columns: 280px;
+    grid-template-columns: 280px;
   }
 }
 
 /* Section 7 */
 .section7-container {
-  
+
   background-image: url(icons/teahub.io-pink-gradient-wallpaper-2761573.jpg);
   background-size: 100% 100%;
   text-align: center;
@@ -518,12 +522,14 @@ margin-right: 20px ;
   color: white;
 
 }
-.responsive-h1{
+
+.responsive-h1 {
   display: none;
 }
-.tag{
+
+.tag {
   font-family: 'Reklame Script Regular DEMO', sans-serif;
-  letter-spacing:10px;
+  letter-spacing: 10px;
 }
 
 /* Section 8 */
@@ -544,8 +550,8 @@ margin-right: 20px ;
   text-align: center;
 
 }
-.cards:not(:first-child)
-{
+
+.cards:not(:first-child) {
   margin-left: 15px;
 }
 
@@ -604,7 +610,7 @@ margin-right: 20px ;
 }
 
 .puchase-tag {
-text-decoration: none;
+  text-decoration: none;
   margin-top: 40px;
   color: #FF05CC;
 }
@@ -615,22 +621,26 @@ text-decoration: none;
     margin-top: 50px;
     flex-direction: column;
   }
+
   .section8-container h1 {
-   text-align: initial;
-   margin-bottom: 20px;
-   width: 100%;
+    text-align: initial;
+    margin-bottom: 20px;
+    width: 100%;
   }
+
   .form-part input:not(:last-child),
   .textarea {
     width: 80%;
     margin-top: 10px;
     padding: 10px;
   }
-.info-part{
-  padding: 0;
-  margin-top: 40px;
- 
-}
+
+  .info-part {
+    padding: 0;
+    margin-top: 40px;
+
+  }
+
   .form-part {
     margin: 10px;
     /* max-width: 350px; */
@@ -641,18 +651,20 @@ text-decoration: none;
   }
 
 }
-@media (max-width:430px)
-{
-  .non-responsive-h1{
+
+@media (max-width:430px) {
+  .non-responsive-h1 {
     display: none;
-    
+
   }
-  .responsive-h1{
+
+  .responsive-h1 {
     display: contents;
-    font-size:100px;
-    font-weight:900;
+    font-size: 100px;
+    font-weight: 900;
   }
 }
+
 /* Section 9 */
 
 .section9-container {
@@ -698,8 +710,8 @@ footer {
 
 
   .social-tags {
-   
-    padding-top:10px;
+
+    padding-top: 10px;
     margin: 0px;
     align-items: center;
     justify-content: center;
