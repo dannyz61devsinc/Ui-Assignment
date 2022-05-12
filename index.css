@@ -209,8 +209,8 @@ margin-right: 20px ;
 
 .section3-container {
   margin-bottom: 200px;
-  background-image: url("icons/teahub.io-pink-gradient-wallpaper-2761573.jpg");
-  background-size: 100% 100%;
+  background-image:linear-gradient(to right,rgba(90,18,225,0.9),rgba(233, 62, 199, 0.9)),url("icons/bg.jpg");
+  background-size:cover;
 }
 
 .info-col {
@@ -219,9 +219,7 @@ margin-right: 20px ;
   padding: 20px;
   text-align: justify;
 }
-.info-col h1{
 
-}
 @media (max-width:446px) {
   .info-col {
     width: 100%;
@@ -511,8 +509,8 @@ margin-right: 20px ;
 /* Section 7 */
 .section7-container {
   
-  background-image: url(icons/teahub.io-pink-gradient-wallpaper-2761573.jpg);
-  background-size: 100% 100%;
+  background-image:linear-gradient(to right,rgba(90,18,225,0.9),rgba(233, 62, 199, 0.9)),url("icons/bg.jpg");
+  background-size:cover;
   text-align: center;
   padding-block: 60px;
   color: white;
@@ -523,7 +521,7 @@ margin-right: 20px ;
 }
 .tag{
   font-family: 'Reklame Script Regular DEMO', sans-serif;
-  letter-spacing:10px;
+  letter-spacing:3px;
 }
 
 /* Section 8 */
@@ -657,8 +655,8 @@ text-decoration: none;
 
 .section9-container {
 
-  background-image: url(icons/teahub.io-pink-gradient-wallpaper-2761573.jpg);
-  background-size: 100% 100%;
+  background-image:linear-gradient(to right,rgba(90,18,225,0.9),rgba(233, 62, 199, 0.9)),url("icons/bg.jpg");
+  background-size:cover;
   text-align: center;
   padding-block: 60px;
   color: white;
